@@ -26,6 +26,11 @@ This is a simple product recommendation system created using the LightFM library
 
 4. **View Recommendations**: The recommended products for the user are displayed in the console.
 
+## Dependencies
+LightFM
+NumPy
+
+
 ## Example
 
 ```python
@@ -35,6 +40,3 @@ print(f"Recommended products for user {user_id}:")
 for i, product_name in enumerate(recommended_products):
     print(f"{i + 1}. {product_name}")
 
-## Dependencies
-LightFM
-NumPy
